@@ -57,7 +57,7 @@ function Imformation() {
             <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 mt-5'>
                 {
                     data_arr.map((data)=>(
-                        <div key={data.id} className='bg-gray-100 rounded-sm shadow overflow-hidden box-border' data-aos='fade-up' >
+                        <div key={data.id} className='bg-white rounded-sm shadow overflow-hidden box-border' data-aos='fade-up' >
                            
                             <div className='w-full h-48 cursor-pointer '>
                                 <img src={data.image} alt='kirirom' className='w-full h-full object-cover rounded-sm hover:scale-105 duration-300'/>
